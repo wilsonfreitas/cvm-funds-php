@@ -1,0 +1,145 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,300);
+
+/*
+
+http://en.wikipedia.org/wiki/Web_colors
+
+http://www.w3schools.com/html/html_quick.asp
+
+*/
+
+html {
+  font-size: 75%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  background: whitesmoke;
+  color: black;
+
+}
+
+body {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+section {
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+#body {
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+#cvm-commands {
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	position: relative;
+}
+
+#cvm-commands li {
+	padding-right: 2%;
+	display: inline;
+	position: relative;
+}
+
+#cvm-token {
+	position: absolute;
+	right: 3%;
+	top: 1%;
+}
+
+#cvm-token li {
+	display: inline;
+}
+
+h1 {
+	padding-left: 1%;
+	padding-top: 0.5%;
+	margin: 0;
+	border: 0;
+	border-bottom: 1px solid silver;
+}
+
+dl {
+/*	font-size: 80%;*/
+}
+
+li {
+    list-style-type: none;
+}
+
+dt {
+	font-weight: bold;
+	padding-top: 25px;
+}
+
+dd {
+	font-size: 90%;
+    line-height: 150%;
+}
+
+a {
+    color: inherit;
+	font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkred;
+	font-weight: bold;
+    text-decoration: none;
+}
+
+.social {
+	font-size: 10pt;
+}
+
+fieldset {
+	margin: 10px;
+	border: 1px solid silver;
+	padding: 20px;
+}
+
+ol {
+	padding :0;
+	margin: 0;
+	list-style: none;
+}
+
+ol li {
+	padding: 0;
+	clear: both;
+	margin: 0 0 10px 0;
+}
+
+label {
+	width: 150px;
+	float: left;
+}
+
+.simpleColorContainer, .simpleColorDisplay {
+	float: left;
+}
+
+table {
+	font-size: inherit;
+	text-align: center;
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+table th {
+	background: #777777;
+	border: 1px solid black;
+	color: #FFF;
+}
+
+table td {
+	padding: 3px;
+	border: 1px solid black;
+}
